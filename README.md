@@ -9,7 +9,7 @@ Welcome to **Care Connect** - a modern, user-friendly healthcare website providi
 - **Departments:** Detailed information about various medical departments.
 - **Doctors:** Profiles of our experienced medical professionals.
 - **Contact Form:** Simple form for patients to get in touch with us.
-- **Footer:** Contact information and social media links.
+- **Footer:** Contact information.
 
 ## Technologies
 
@@ -20,4 +20,4 @@ Welcome to **Care Connect** - a modern, user-friendly healthcare website providi
 ## License
 Distributed under the MIT License. See LICENSE for more information.
 
-## To Experienece the project , click this link:-> https://github.com/your-username/care-connect 
+## To Experience the project , click this link:-> https://github.com/your-username/care-connect 
