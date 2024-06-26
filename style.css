@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#navbar{
+    top:0;
+    left: 0;
+    z-index: 100;
+    position: sticky;
+    padding: .5rem 5rem;
+    background-color: rgb(207, 248, 248) !important;
+    box-shadow: 5px 5px 10px gray;
+    animation: nav 1s ease-in-out
+}
+@keyframes nav{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+#navbar .navbar-brand{
+    font-size: 33px;
+    font-weight: 880;
+    color: green;
+}
+#navbar .navbar-brand:hover{
+    color: black !important;
+}
+#navbarSupportedContent .nav-link{
+    font-size: 19px;
+    font-weight: 780;
+    color: black !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent .nav-link:hover{
+    border-bottom: 2px solid ;
+    color: green !important;
+}
+#navbarSupportedContent .btn{
+    font-size: 16px;
+    font-weight: 680;
+    background-color:white !important;
+    color: green !important;
+    border-radius: 25px;
+}
+#navbarSupportedContent .btn:hover{
+    background-color: red !important;
+    color:black !important;
+}
+
+/**************Home********/
+
+#section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#home{
+    
+    padding-top: 120px;
+}
+#home span{
+    color:green !important;
+    font-weight:750;
+}
+#home span:hover{
+    color:black !important;
+    font-weight:750;
+}
+#home p{
+    font-size: 18px;
+}
+#home h1{
+    padding-top: 80px;
+}
+#home h2{
+    font-family: bold;
+    color: green !important;
+}
+#why{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+#why .card{
+    background-color: rgb(207, 248, 248);
+    box-shadow: 5px 5px 20px black !important;
+    color:black !important;
+}
+#why .card:hover{
+    color: white !important;
+    background-color: green;
+    box-shadow: 5px 5px 20px black !important;
+}
+#pat{
+    padding-bottom: 20px;
+}
+#pat .card{
+    background-color: rgb(207, 248, 248);
+    box-shadow: 5px 5px 20px black !important;
+    color:black !important;
+}
+#pat h3{
+    color: black;
+}
+#pat .card:hover{
+    color: white !important;
+    background-color: green;
+    box-shadow: 5px 5px 20px black !important;
+}
+#lat .card{
+    background-color: rgb(207, 248, 248);
+    box-shadow: 5px 5px 20px black !important;
+    color:black !important;
+}
+#lat .card:hover{
+    color: white !important;
+    background-color: green;
+    box-shadow: 5px 5px 20px black !important;
+} 
+
+/**********department*******************/
+
+#department{
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(207, 248, 248);
+    padding-left: 58px;
+}
+#department img{
+    padding-top: 50px;
+    width: 250px;
+    height: 350px;
+    padding-bottom: 50px;
+}
+#department img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#department h2{
+    padding-top: 100px;
+    border-bottom: 2px solid green !important;
+
+    color: green;
+    font-weight: 760;
+    font-size: 30px;
+}
+
+/******************Doctor*******************/
+
+#doctor span{
+    color:green !important;
+    font-weight:880 !important;
+}
+#doctor h2{
+    padding-top: 100px;
+    color: green;
+    font-weight: 760;
+    font-size: 30px;
+    border-bottom: 2px solid green !important;
+}
+#doctor img{
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+    box-shadow: 5px 5px 10px grey,
+                inset 10px 10px 20px grey !important;
+}
+#doctor img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#doctor h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 8px !important;
+}
+#doc{
+    background-color: rgb(223, 243, 247) !important;
+}
+
+/*************Contact*************/
+
+.contact {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.contact form {
+    width: 100%;
+}
+
+.contact .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact .form-group input:focus,
+.contact .form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.contact button.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact button.btn:hover {
+    background-color: #0056b3;
+}
+
+
